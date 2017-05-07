@@ -28,6 +28,33 @@
 	}
 }
 
+.inline {
+	display:inline;
+}
+
+.inset {
+	background-color: $medium-gray;
+	padding: 1.5rem 0.7rem;
+    width: 90%;
+    display: inline-block;
+}
+
+.tips {
+	color: $medium-gray;
+
+	&:before {
+		background: url(/images/tip.png) 50% no-repeat;
+	    content: "";
+	    background-size: 20px;
+	    width: 20px;
+	    height: 20px;
+	    display: inline-block;
+	    position: relative;
+	    top: 4px;
+	    margin-right: 4px;
+	}
+}
+
 .page-title {
 	margin-top: 3rem;
 }

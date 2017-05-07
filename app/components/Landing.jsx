@@ -9,10 +9,12 @@ export var Landing = React.createClass({
 	render: function() {
 		return (
 		<div>
-			<h1 className='page-title'>Welcome to Outcomes</h1>
+			<h1 className='page-title'>Welcome to Binnacle</h1>
 
 			<div>
-				<p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula rhoncus justo. Proin sit amet urna nunc. Integer sit amet augue cursus, volutpat turpis vel, tristique sem. Proin aliquam mi at augue porta ullamcorper. Duis nec augue finibus, laoreet nisi rhoncus, blandit ipsum. Fusce molestie varius sodales. Curabitur eu cursus lorem, vitae gravida elit. Proin accumsan dapibus augue. Nam sed scelerisque erat, non lobortis libero. Nullam posuere tortor est, eu scelerisque orci rhoncus id. Etiam a magna tellus.</p>
+				<p className="text-center">
+				A binnacle is a housing on the deck of a ship for the compass and other navigational tools. Binnacle, the app you're about to start using, is a housing for all of the tools a job seeker needs to carry out an intentional and successful search. We leverage user-generated data regarding the length and details of their job search to craft strategies that will work in your industry. If you're a full-time seeker, chances are you have a whole mess of resumé files, a giant Excel sheet, and a ball of stress in your stomach. Binnacle is going to help you clean up and standardize the first two items - in hopes of dissolving the final one. Plan, don't panic.
+				</p>
 			</div>
 
 			<br/>
