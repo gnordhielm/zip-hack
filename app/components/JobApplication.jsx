@@ -6,9 +6,8 @@ export var JobApplication = React.createClass({
 	render: function() {
 		var {company, title} = this.props
 		return (
-		<div>
+		<div className='bulletin application'>
 			<p>{title} at {company}</p>
-			
 		</div>
 		)
 	}

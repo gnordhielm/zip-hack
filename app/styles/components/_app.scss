@@ -39,6 +39,14 @@
     margin: -20px 0 25px;
 }
 
+.dark-text {
+	color: $dark-gray;
+
+	&:hover {
+		color: $dark-gray;
+	}
+}
+
 .inline {
 	display:inline;
 }

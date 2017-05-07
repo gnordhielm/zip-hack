@@ -113,18 +113,29 @@ export var NewApplication = React.createClass({
 							
 						    <br/>
 							
-							<div className="row inset">
-								<label>Password
-								  <input type="password" aria-describedby="passwordHelpText"/>
-								</label>
+							<div className="row">
+								<div className="small-12 columns">
+									<label>Employee Name
+									  <input type="text"/>
+									</label>
+							    </div>
 						    </div>
 							
-							<div className="row inset">
-						    	<div className="small-4 columns">
-						      		<label className="text-left middle">Name</label>
+							<div className="row">
+						    	<div className="small-6 columns">
+						      		<label>Employee Title
+									  <input type="text"/>
+									</label>
 							    </div>
-							    <div className="small-8 columns">
-							      	<input type="text"/>
+							    <div className="small-6 columns">
+							      	<label>Email/Phone/LinkedIn Profile
+									  <input type="text"/>
+									</label>
+							    </div>
+						    </div>
+							<div className="row">
+							    <div className="inline">
+									<input className="button hollow" type="button" value="Add"/>
 							    </div>
 						    </div>
 
