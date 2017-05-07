@@ -6,26 +6,39 @@ import Menu from 'Menu'
 import BulletinList from 'BulletinList'
 
 export var Dashboard = React.createClass({
+	getInitialState: function(){
+		return {
+			isDone: false
+		}
+	},
+	makeDone: function() {
+		setTimeout(() => {
+			this.setState({
+				isDone: true
+			})
+		}, 5000)
+	},
 	render: function() {
+		var image = this.state.isDone ? '/images/app-goals-done.png' : '/images/app-goals.png'
 		return (
 		<div>
 			<h1 className='page-title'>Dashboard</h1>
 			<Menu/>
 			
-			<div className="bulletin goals">
+			<div className="bulletin goals" onClick={this.makeDone}>
 				<div className="row">
 					<div className="small-4 columns">
-						<img src='http://placehold.it/150x150'></img>
+						<img src={image}></img>
 						<p>App Goals</p>
 					</div>
 					
 					<div className="small-4 columns">
-						<img src='http://placehold.it/150x150'></img>
+						<img src='/images/interview-goals.png'></img>
 						<p>Interview Goals</p>
 					</div>
 
 					<div className="small-4 columns">
-						<img src='http://placehold.it/150x150'></img>
+						<img src='images/followup-goals.png'></img>
 						<p>Follow-ups Goals</p>
 					</div>
 				</div>
