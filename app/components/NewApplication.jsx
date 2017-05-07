@@ -111,9 +111,13 @@ export var NewApplication = React.createClass({
 							<h3>Reach Out</h3>
 							<p className='tips'>Contact 2-4 current employees on LinkedIn or by email, see if you can schedule a phone call, <a href='#'>more...</a></p>
 							
-							<label>Password
-							  <input type="password" aria-describedby="passwordHelpText"/>
-							</label>
+						    <br/>
+							
+							<div className="row inset">
+								<label>Password
+								  <input type="password" aria-describedby="passwordHelpText"/>
+								</label>
+						    </div>
 							
 							<div className="row inset">
 						    	<div className="small-4 columns">
@@ -129,6 +133,7 @@ export var NewApplication = React.createClass({
 
 							<h3>Tailor Resumé</h3>
 							<p className='tips'>Emphasize relevant skills, repeat terms found in the job description, keep it one page long <a href='#'>more...</a></p>
+						    <br/>
 							<div className="row">
 							    <div className="inline">
 									<label htmlFor="resume" className="button hollow">Upload Resumé</label>
@@ -141,6 +146,7 @@ export var NewApplication = React.createClass({
 
 							<h3>Write Cover Letter</h3>
 							<p className='tips'>Always write a cover letter, connect to problems the company is facing, talk about past achievements, <a href='#'>more...</a></p>
+						    <br/>
 							<div className="row">
 							    <div className="inline">
 									<label htmlFor="cover-letter" className="button hollow">Upload Cover Letter</label>

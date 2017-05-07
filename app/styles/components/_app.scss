@@ -26,6 +26,17 @@
 	    max-width: 550px;
 
 	}
+
+	.row {
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+.logo {
+	display: inline-block;
+	width: 75px;
+    margin: -20px 0 25px;
 }
 
 .inline {
