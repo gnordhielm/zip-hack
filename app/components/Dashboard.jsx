@@ -16,7 +16,7 @@ export var Dashboard = React.createClass({
 			this.setState({
 				isDone: true
 			})
-		}, 5000)
+		}, 100)
 	},
 	render: function() {
 		var image = this.state.isDone ? '/images/app-goals-done.png' : '/images/app-goals.png'
